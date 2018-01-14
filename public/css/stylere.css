@@ -1,0 +1,92 @@
+.bodyy{
+	margin: 0;
+	padding: 0;
+	background-color: #b2dfdb;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.regBox{
+	width: 320px;
+	height: 490px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+.avatar{
+	width: 70px;
+	height: 110px;
+	position: absolute;
+	top: -50px;
+}
+.h1y{
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+.regBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+}
+.regBox input{
+	width: 100%;
+    height: 20%;
+	margin-bottom: 20px;
+
+}
+
+.regBox input[type="text"], input[type="password"], input[type="password-confirm"]
+{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-size: 16px;
+
+}
+
+.regBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #00897b;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+.regBox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: #00897b;
+	color: #000;
+}
+.reginBox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
